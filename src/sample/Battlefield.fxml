@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<GridPane fx:id="root" xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="sample.BoardView"
+          styleClass="gridRoot">
+
+    <Button GridPane.columnIndex="0" GridPane.rowIndex="0" fx:id="A1" onAction="#OnClicked"/> <!-- A -->
+    <Button GridPane.columnIndex="1" GridPane.rowIndex="0" fx:id="A2" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="2" GridPane.rowIndex="0" fx:id="A3" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="3" GridPane.rowIndex="0" fx:id="A4" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="4" GridPane.rowIndex="0" fx:id="A5" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="5" GridPane.rowIndex="0" fx:id="A6" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="6" GridPane.rowIndex="0" fx:id="A7" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="7" GridPane.rowIndex="0" fx:id="A8" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="8" GridPane.rowIndex="0" fx:id="A9" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="9" GridPane.rowIndex="0" fx:id="A10" onAction="#OnClicked"/>
+
+    <Button GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="B1" onAction="#OnClicked"/> <!-- B -->
+    <Button GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="B2" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="2" GridPane.rowIndex="1" fx:id="B3" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="3" GridPane.rowIndex="1" fx:id="B4" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="4" GridPane.rowIndex="1" fx:id="B5" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="5" GridPane.rowIndex="1" fx:id="B6" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="6" GridPane.rowIndex="1" fx:id="B7" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="7" GridPane.rowIndex="1" fx:id="B8" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="8" GridPane.rowIndex="1" fx:id="B9" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="9" GridPane.rowIndex="1" fx:id="B10" onAction="#OnClicked"/>
+
+    <Button GridPane.columnIndex="0" GridPane.rowIndex="2" fx:id="C1" onAction="#OnClicked"/> <!-- C -->
+    <Button GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="C2" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="2" GridPane.rowIndex="2" fx:id="C3" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="3" GridPane.rowIndex="2" fx:id="C4" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="4" GridPane.rowIndex="2" fx:id="C5" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="5" GridPane.rowIndex="2" fx:id="C6" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="6" GridPane.rowIndex="2" fx:id="C7" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="7" GridPane.rowIndex="2" fx:id="C8" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="8" GridPane.rowIndex="2" fx:id="C9" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="9" GridPane.rowIndex="2" fx:id="C10" onAction="#OnClicked"/>
+
+    <Button GridPane.columnIndex="0" GridPane.rowIndex="3" fx:id="D1" onAction="#OnClicked"/> <!-- D -->
+    <Button GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="D2" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="2" GridPane.rowIndex="3" fx:id="D3" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="3" GridPane.rowIndex="3" fx:id="D4" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="4" GridPane.rowIndex="3" fx:id="D5" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="5" GridPane.rowIndex="3" fx:id="D6" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="6" GridPane.rowIndex="3" fx:id="D7" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="7" GridPane.rowIndex="3" fx:id="D8" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="8" GridPane.rowIndex="3" fx:id="D9" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="9" GridPane.rowIndex="3" fx:id="D10" onAction="#OnClicked"/>
+
+    <Button GridPane.columnIndex="0" GridPane.rowIndex="4" fx:id="E1" onAction="#OnClicked"/> <!-- E -->
+    <Button GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="E2" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="2" GridPane.rowIndex="4" fx:id="E3" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="3" GridPane.rowIndex="4" fx:id="E4" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="4" GridPane.rowIndex="4" fx:id="E5" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="5" GridPane.rowIndex="4" fx:id="E6" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="6" GridPane.rowIndex="4" fx:id="E7" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="7" GridPane.rowIndex="4" fx:id="E8" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="8" GridPane.rowIndex="4" fx:id="E9" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="9" GridPane.rowIndex="4" fx:id="E10" onAction="#OnClicked"/>
+
+    <Button GridPane.columnIndex="0" GridPane.rowIndex="5" fx:id="F1" onAction="#OnClicked"/> <!-- F -->
+    <Button GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="F2" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="2" GridPane.rowIndex="5" fx:id="F3" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="3" GridPane.rowIndex="5" fx:id="F4" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="4" GridPane.rowIndex="5" fx:id="F5" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="5" GridPane.rowIndex="5" fx:id="F6" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="6" GridPane.rowIndex="5" fx:id="F7" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="7" GridPane.rowIndex="5" fx:id="F8" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="8" GridPane.rowIndex="5" fx:id="F9" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="9" GridPane.rowIndex="5" fx:id="F10" onAction="#OnClicked"/>
+
+    <Button GridPane.columnIndex="0" GridPane.rowIndex="6" fx:id="G1" onAction="#OnClicked"/> <!-- G -->
+    <Button GridPane.columnIndex="1" GridPane.rowIndex="6" fx:id="G2" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="2" GridPane.rowIndex="6" fx:id="G3" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="3" GridPane.rowIndex="6" fx:id="G4" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="4" GridPane.rowIndex="6" fx:id="G5" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="5" GridPane.rowIndex="6" fx:id="G6" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="6" GridPane.rowIndex="6" fx:id="G7" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="7" GridPane.rowIndex="6" fx:id="G8" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="8" GridPane.rowIndex="6" fx:id="G9" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="9" GridPane.rowIndex="6" fx:id="G10" onAction="#OnClicked"/>
+
+    <Button GridPane.columnIndex="0" GridPane.rowIndex="7" fx:id="H1" onAction="#OnClicked"/> <!-- H -->
+    <Button GridPane.columnIndex="1" GridPane.rowIndex="7" fx:id="H2" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="2" GridPane.rowIndex="7" fx:id="H3" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="3" GridPane.rowIndex="7" fx:id="H4" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="4" GridPane.rowIndex="7" fx:id="H5" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="5" GridPane.rowIndex="7" fx:id="H6" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="6" GridPane.rowIndex="7" fx:id="H7" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="7" GridPane.rowIndex="7" fx:id="H8" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="8" GridPane.rowIndex="7" fx:id="H9" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="9" GridPane.rowIndex="7" fx:id="H10" onAction="#OnClicked"/>
+
+    <Button GridPane.columnIndex="0" GridPane.rowIndex="8" fx:id="I1" onAction="#OnClicked"/> <!-- I -->
+    <Button GridPane.columnIndex="1" GridPane.rowIndex="8" fx:id="I2" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="2" GridPane.rowIndex="8" fx:id="I3" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="3" GridPane.rowIndex="8" fx:id="I4" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="4" GridPane.rowIndex="8" fx:id="I5" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="5" GridPane.rowIndex="8" fx:id="I6" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="6" GridPane.rowIndex="8" fx:id="I7" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="7" GridPane.rowIndex="8" fx:id="I8" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="8" GridPane.rowIndex="8" fx:id="I9" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="9" GridPane.rowIndex="8" fx:id="I10" onAction="#OnClicked"/>
+
+    <Button GridPane.columnIndex="0" GridPane.rowIndex="9" fx:id="J1" onAction="#OnClicked"/> <!-- J -->
+    <Button GridPane.columnIndex="1" GridPane.rowIndex="9" fx:id="J2" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="2" GridPane.rowIndex="9" fx:id="J3" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="3" GridPane.rowIndex="9" fx:id="J4" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="4" GridPane.rowIndex="9" fx:id="J5" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="5" GridPane.rowIndex="9" fx:id="J6" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="6" GridPane.rowIndex="9" fx:id="J7" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="7" GridPane.rowIndex="9" fx:id="J8" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="8" GridPane.rowIndex="9" fx:id="J9" onAction="#OnClicked"/>
+    <Button GridPane.columnIndex="9" GridPane.rowIndex="9" fx:id="J10" onAction="#OnClicked"/>
+    <stylesheets>
+        <URL value="@Battlefield.css" />
+    </stylesheets>
+</GridPane>
